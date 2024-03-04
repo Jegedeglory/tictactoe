@@ -20,7 +20,7 @@ git clone https://github.com/Jegedeglory/tictactoe
 
 2. Navigate into the project directory:
 ```bash
-cd tic-tac-toe-react
+cd tictactoe
 ```
 
 
