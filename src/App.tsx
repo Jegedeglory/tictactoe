@@ -39,7 +39,7 @@ function handlePlayerTurn(clickedCellIndex: number): void {
       }
       gameBoard[clickedCellIndex] = currentPlayer;
       currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
-      checkForWinOrDraw() ; 
+      checkForWinOrDraw(); 
     }
     
 // CHECK THE RESULT OF THE GAME
@@ -104,7 +104,7 @@ function cellClicked(clickedCellEvent: Event): void {
     updateUI();
     if (currentPlayer === 'O' && gameActive) {
       aiPlayer();
-      updateUI();
+      setTimeout(updateUI, 1500);
 }
 
 // UPDATE WHAT IS ON THE GAME
